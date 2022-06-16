@@ -1,22 +1,32 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Header from './Components/header'
+// import Carousel from './Components/Carousel'
 import Navbar from './Components/Navbar'
 import Banner from './Components/Banner'
 import About from './Components/About'
 import Project from './Components/Project'
 import Portfolio from './Components/Portfolio'
 import Contact from './Components/Contact'
+import ReactSimplyCarouselExample from './Components/ReactSimplyCarouselExample';
+// import ReactSimplyCarouselExample from './Components/ReactSimplyCarouselExample';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <hr />
+      {/* <Header /> */}
+      {/* <hr /> */}
       <Navbar />
+      <br />
+      <ReactSimplyCarouselExample/>
+
+
+
+
+      
       <br />
       <Banner /> 
       <br />
