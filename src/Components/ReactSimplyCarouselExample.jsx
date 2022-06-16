@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ReactSimplyCarousel from 'react-simply-carousel';
 import React, { Component }  from 'react';
+import farhinaapu from '../Components/public/image/farhinaapu.jpg';
 function ReactSimplyCarouselExample() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
@@ -15,7 +16,7 @@ function ReactSimplyCarouselExample() {
           //here you can also pass className, or any other button element attributes
           style: {
             alignSelf: 'center',
-            background: 'black',
+            // background: 'white',
             border: 'none',
             borderRadius: '50%',
             color: 'white',
@@ -32,7 +33,7 @@ function ReactSimplyCarouselExample() {
           //here you can also pass className, or any other button element attributes
           style: {
             alignSelf: 'center',
-            background: 'black',
+            // background: 'black',
             border: 'none',
             borderRadius: '50%',
             color: 'white',
@@ -84,7 +85,7 @@ function ReactSimplyCarouselExample() {
           slide 8
         </div>
         <div style={{ width: 300, height: 300, background: '#e6e6fa' }}>
-          slide 9
+        <img src={farhinaapu} width="300" height="300" alt="abtimg"/>
         </div>
       </ReactSimplyCarousel>
     </div>

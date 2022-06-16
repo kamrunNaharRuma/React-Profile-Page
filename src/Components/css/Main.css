@@ -80,16 +80,19 @@
 }
 
 .container-banner{
-    background-color: #f1f1f1;
-    text-align: center;
+    background-color: rgb(255, 246, 246);
+    text-align: justify;
     border-style: hidden;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     font-family: 'Ruda', sans-serif;
+    display: flex;
+    /* padding: 20; */
 }
 
 #profilepic{
-    border-radius: 85px;
-    padding-top: 7px;
+    width: 70%;
+    height: auto;
+    /* border-radius: 80px; */
 }
 
 .container-about{

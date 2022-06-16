@@ -21,14 +21,9 @@ function App() {
       {/* <hr /> */}
       <Navbar />
       <br />
-      <ReactSimplyCarouselExample/>
-
-
-
-
-      
-      <br />
       <Banner /> 
+      <br />
+      <ReactSimplyCarouselExample/>
       <br />
       <About />
       <br />
